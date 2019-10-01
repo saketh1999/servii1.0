@@ -27,7 +27,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="70sp"
         tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="93dp" tools:targetApi="jelly_bean" />
+        tools:layout_editor_absoluteY="93dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -107,8 +107,7 @@
         android:digits="10"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/_91"
-        android:importantForAutofill="no" />
+        android:text="@string/_91" />
 
     <Button
         android:id="@+id/button"
