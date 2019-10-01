@@ -5,10 +5,10 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override /* Test 3 */
+    @Override /* Test */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*testing1234*/
+        /*testing12345566777*/
     }
 }
