@@ -25,9 +25,10 @@
         android:background="@drawable/email_box"
         android:ems="10"
         android:gravity="center_vertical"
-        android:hint="  Email"
+        android:hint="@string/email"
         android:inputType="textPersonName"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:autofillHints="" />
 
 
     <TextView
@@ -47,7 +48,7 @@
         android:layout_marginRight="83dp"
         android:layout_marginBottom="578dp"
         android:fontFamily="@font/cocogoose_trial"
-        android:text="SERVii"
+        android:text="@string/servii"
         android:textColor="@color/colorAccent"
         android:textSize="70sp"
         tools:layout_editor_absoluteX="84dp"
@@ -72,7 +73,7 @@
         android:background="@drawable/email_box"
         android:ems="10"
         android:gravity="center_vertical"
-        android:hint="  Create a password"
+        android:hint="@string/create_a_password"
         android:inputType="textPersonName"
         android:textSize="24sp" />
 
@@ -107,7 +108,7 @@
         android:layout_marginEnd="191dp"
         android:layout_marginRight="191dp"
         android:layout_marginBottom="254dp"
-        android:text="OR"
+        android:text="@string/or"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp" />
 
@@ -121,7 +122,7 @@
         android:layout_marginEnd="137dp"
         android:layout_marginRight="137dp"
         android:layout_marginBottom="19dp"
-        android:text="Already have an account?"
+        android:text="@string/already_have_an_account"
         android:textSize="18sp" />
 
     <TextView
@@ -134,7 +135,7 @@
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
         android:layout_marginBottom="19dp"
-        android:text="Log in"
+        android:text="@string/log_in"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp" />
 
@@ -190,7 +191,7 @@
         android:layout_marginBottom="196dp"
         android:background="@drawable/email_box"
         android:gravity="right|center_vertical"
-        android:text="Login with Google  "
+        android:text="@string/login_with_google"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="16sp" />
 
@@ -229,7 +230,9 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="240dp"
         android:layout_marginBottom="271dp"
-        android:background="@color/colorAccent" />
+        android:background="@color/colorAccent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="240dp" />
 
     <View
         android:layout_width="match_parent"
@@ -238,7 +241,9 @@
         android:layout_marginLeft="240dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="270dp"
-        android:background="@color/colorAccent" />
+        android:background="@color/colorAccent"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="30dp" />
 
 
 </RelativeLayout>

@@ -8,4 +8,11 @@
     <string name="continue">CONTINUE</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="servii">SERVii</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="or">OR</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="login_with_google">Login with Google</string>
 </resources>
